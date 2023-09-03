@@ -1,7 +1,7 @@
-## **`verify` EOSIO Smart Contract**
+## **`WaxLinker` EOSIO Smart Contract**
 
 ### **Description**:
-The `verify` contract allows users to register their wallet IDs and link them to their Twitter IDs. The contract owner has special permissions to add or modify Twitter IDs and can also clear all entries from the contract.
+The `WaxLinker` contract allows users to register their wallet IDs and link them to their Twitter IDs. The contract owner has special permissions to add or modify Twitter IDs and can also clear all entries from the contract.
 
 ### **Features**:
 
