@@ -1,0 +1,141 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT ",
+    "version": "eosio::abi/1.2",
+    "types": [],
+    "structs": [
+        {
+            "name": "addinfo",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user_id",
+                    "type": "name"
+                },
+                {
+                    "name": "twitterId",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "addwallet",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "clearlist",
+            "base": "",
+            "fields": []
+        },
+        {
+            "name": "cleartab",
+            "base": "",
+            "fields": []
+        },
+        {
+            "name": "hasentry",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user_id",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "listtab",
+            "base": "",
+            "fields": [
+                {
+                    "name": "wallet_id",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "removeinfo",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user_id",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "verifytab",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user_id",
+                    "type": "name"
+                },
+                {
+                    "name": "twitterId",
+                    "type": "string"
+                },
+                {
+                    "name": "hashValue",
+                    "type": "uint64"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "addinfo",
+            "type": "addinfo",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "addwallet",
+            "type": "addwallet",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "clearlist",
+            "type": "clearlist",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "cleartab",
+            "type": "cleartab",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "hasentry",
+            "type": "hasentry",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "removeinfo",
+            "type": "removeinfo",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "listtab",
+            "type": "listtab",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "verifytab",
+            "type": "verifytab",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "kv_tables": {},
+    "ricardian_clauses": [],
+    "variants": [],
+    "action_results": []
+}
